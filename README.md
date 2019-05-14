@@ -31,14 +31,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+ 
+ Document Object Model, which is essentially the language neutral interface that allows it content to be updated dynamically.
 
 2. What is an event?
 
+An event is a reference to an action that happens on a object in javascript, like a page loading or when a user click or just interacts with a html page.
+
 3. What is an event listener?
+
+A method that monitors the html page for any specified actions that take place an then responds to it with a specified action. 
+It reacts to an event's handler.
 
 4. Why would we convert a NodeList into an Array?
 
+We would convert a NodeList into an Array to give us the methods and properties that work with arrays.
+
 5. What is a component?
+
+Components are reusable pieces of code that can be used to build elements sharing functionality and styling.
 
 ### Git Set up
 
@@ -68,3 +79,4 @@ Your stretch challenge is to write the functionality of a `Carousel` component. 
 * [ ] Create an 'infinite loop' carousel. In which as long as you click on an arrow, the array of images will loop over itself.
 
 * [ ] If you have finished the above, play around with the styling on all the components, and understand how each is built.
+
